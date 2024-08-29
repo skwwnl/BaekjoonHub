@@ -15,6 +15,6 @@ except ValueError as e:
 H = 0
 
 for i, j in enumerate(S):
-    H += (dict[j]) * (r**i)
+    H += ((dict[j]) * (r**i))
 
-print(H)
+print(H % M)
