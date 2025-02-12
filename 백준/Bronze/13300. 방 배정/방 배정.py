@@ -15,8 +15,8 @@ for i in range(N):
 def calc(students):
     count = 0
     for i in range(len(students)):
-        count += students[i] // 2
-        if students[i] % 2 == 1:
+        count += students[i] // K
+        if students[i] % K:
             count += 1
     return count
 
